@@ -1,3 +1,7 @@
+body {
+  background-color: aliceblue;
+}
+
 a {
   text-decoration: none;
 }
@@ -7,7 +11,7 @@ img {
   width: 50px;
 }
 
-header {
+.navigation {
   display: flex;
   justify-content: flex-end;
   justify-content: space-evenly;

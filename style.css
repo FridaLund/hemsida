@@ -1,3 +1,11 @@
+* {
+  margin: none;
+}
+
+body {
+  background-color: aliceblue;
+}
+
 a {
   text-decoration: none;
 }
@@ -7,15 +15,21 @@ img {
   width: 50px;
 }
 
-header {
+.navigation {
   display: flex;
   justify-content: flex-end;
   justify-content: space-evenly;
   list-style: none;
+  background-color: rgb(188, 224, 255);
+  width: 100%;
 }
 
 footer {
   list-style: none;
+  background-color: rgb(188, 224, 255);
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
 
 h1 {
